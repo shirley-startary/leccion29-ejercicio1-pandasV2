@@ -2,73 +2,79 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title> Pandas con Flexbox</title>
+    <title> Flexbox</title>
     <link rel="stylesheet" href="assets/css/main.css">
   </head>
   <body>
-    <header>
-      <div class="logo">
-        <img src="" alt="">
-        <h1>titulo</h1>
+    <header class="container">
+      <div class="logo container">
+        <img src="assets/img/rin.png" alt="">
+        <h1>La Bicicleta</h1>
       </div>
-      <nav>
-        <a href="#">Inicio</a>
-        <a href="#">Pandas</a>
-        <a href="#">historia</a>
-        <a href="#">Extincion</a>
+      <div class="relleno">
+
+      </div>
+      <nav class="container">
+          <a href="#">Inicio</a>
+          <a href="#">Biclas</a>
+          <a href="#">historia</a>
+          <a href="#">Fotos</a>
       </nav>
     </header>
 
-    <section class="imagenes">
-      <div class="pandas">
-        <img src="assets/img/img-1.jpg" alt="">
-        <span>X</span>
+    <section class="imagenes container" >
+      <div class="fotosBiclas">
+        <span class="cerrar">&times;</span>
+        <img src="assets/img/bici01.jpg" alt=""/>
       </div>
-      <div class="pandas">
-        <img src="assets/img/img-2.jpg" alt="">
-        <span>X</span>
+      <div class="fotosBiclas">
+        <span class="cerrar">&times;</span>
+        <img src="assets/img/bici02.jpg" alt=""/>
       </div>
-      <div class="pandas">
-        <img src="assets/img/img-3.jpg" alt="">
-        <span>X</span>
+      <div class="fotosBiclas">
+        <span class="cerrar">&times;</span>
+        <img src="assets/img/bici03.jpg" alt=""/>
       </div>
-      <div class="pandas">
-        <img src="assets/img/img-4.jpg" alt="">
-        <span>X</span>
+      <div class="fotosBiclas">
+        <span class="cerrar">&times;</span>
+        <img src="assets/img/bici04.jpg" alt=""/>
+      </div>
+      <div class="fotosBiclas">
+        <span class="cerrar">&times;</span>
+        <img src="assets/img/bici05.jpg" alt=""/>
       </div>
     </section>
 
-    <section class="botones">
-      <button type="button" name="button">Origen</button>
-      <button type="button" name="button">Extincion</button>
-      <button type="button" name="button">Restaurar Fotos</button>
+    <section id="botones" class="container">
+      <button type="button" name="button" id="botonOrigen">Origen</button>
+      <button type="button" name="button" id="botonExtincion">Extincion</button>
+      <button type="button" name="button" id="botonRestaurarFotos">Restaurar Fotos</button>
     </section>
 
-    <section class="texto">
-      <div class="">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-           Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-            nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-             reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-             Excepteur sint occaecat cupidatat non proident,
-             sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <section class="texto container">
+      <div class="contenedorTexto">
+        <p id="textoOrigen">La bicicleta, coloquialmente llamada bici, también llamada con diferentes
+           apodos en América Latina, por ejemplo: cicla o ciclo  en Colombia,
+            en Cuba y Uruguay chiva, en México cleta, baika o birula.
+            Es un vehículo de transporte personal de propulsión humana,
+             es decir, es impulsada por el propio viajero; accionando con el
+             esfuerzo muscular de las piernas de la persona o usuario que la ocupa,
+             en particular esto es mediante pedales o manivelas.
+              Sus componentes básicos son dos ruedas</p>
       </div>
-      <div class="">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-           Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-            nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-             reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-             Excepteur sint occaecat cupidatat non proident,
-             sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <div class="contenedorTexto">
+        <p id="textoExtincion">El uso de una bicicleta puede mejorar tu salud física y emocional.
+          Ayuda al funcionamiento del sistema cardiovascular,
+          tonifica los músculos y mejora la capacidad pulmonar.
+          Reduce los niveles de colesterol en la sangre.
+          Es un excelente ejercicio aeróbico que combate los
+          riesgos de sufrir sobrepeso y obesidad.</p>
       </div>
     </section>
     <footer>
-      <p></p>
+      <img src="assets/img/chicasDelCoro.png" alt="">
     </footer>
-    <script type="text/javascript" src="assets/js/app.js" >
 
-    </script>
+    <script type="text/javascript" src="assets/js/app.js" > </script>
   </body>
 </html>
