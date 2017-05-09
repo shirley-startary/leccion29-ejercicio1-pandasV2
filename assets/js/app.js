@@ -1,4 +1,4 @@
-var cerrar=document.getElementsByClassName("cerrar");
+  var cerrar=document.getElementsByClassName("cerrar");
 var botonRestaurarFotos = document.getElementById("botonRestaurarFotos");
 var botonOrigen = document.getElementById("botonOrigen");
 var botonExtincion = document.getElementById("botonExtincion");
@@ -29,7 +29,6 @@ function restaurarFotos(){
 
 function textoOrigen(){
   var textoOrigen=document.getElementById("textoOrigen");
-  console.log(textoOrigen);
   if(textoOrigen.style.visibility=="visible"){
     textoOrigen.style.visibility ="hidden";
 
@@ -39,7 +38,6 @@ function textoOrigen(){
 }
 function textoExtincion(){
   var textoExtincion=document.getElementById("textoExtincion");
-  console.log(textoOrigen);
   if(textoExtincion.style.visibility=="visible"){
     textoExtincion.style.visibility ="hidden";
 
