@@ -62,7 +62,15 @@ a:hover{
   margin: 5px;
   border-radius: 20px;
   border: 0;
-
+  color:#8E0014;
+  background-color: white;
+  font-weight: bold;
+}
+#botones button:hover{
+  cursor: pointer;
+  background-color: #330007;
+  color: white;
+  font-weight: bold;
 }
 .cerrar{
   color: black;
@@ -89,4 +97,16 @@ a:hover{
   width: 100%;
   align-content: center;
   text-align: justify;
+}
+footer{
+  height: 130px;
+  background-color: #330007;
+  margin-bottom: 0;
+  justify-content: center;
+  align-items: center;
+}
+footer img{
+  padding: 30px;
+  width: 100px;
+  height: 70px;
 }
