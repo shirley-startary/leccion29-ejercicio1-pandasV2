@@ -1,1 +1,92 @@
+body{
+  width: 100%;
+  /*max-width: 1200px;*/
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #8E0014;
+  color: white;
+}
+header{
+  background-color: #330007;
+}
+.container{
 
+  display: flex;
+  flex-direction: row;
+}
+.logo{
+  width: 30%;
+  /*display: flex;*/
+  justify-content: space-around;
+}
+.logo img{
+  width: 60px;
+  height: 70px;
+}
+.relleno{
+  width: 20%;
+}
+
+nav{
+  width: 50%;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+a:hover{
+
+}
+.fotosBiclas{
+  /*position: relative;*/
+  width: 20%;
+  margin: 1%;
+  border: 1px solid blue;
+  justify-content: space-around;
+}
+.fotosBiclas img{
+  /*padding: 5px;*/
+  width: 100%;
+}
+#botones{
+  justify-content: space-around;
+}
+#botones button{
+  width: 20%;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 20px;
+  border: 0;
+
+}
+.cerrar{
+  color: black;
+  /*margin-top: 0;*/
+  /*margin-left: 200px;*/
+  font-size:150%;
+  position: absolute;
+  padding: 2px;
+  font-weight: bold;
+}
+.cerrar:hover{
+  cursor: pointer;
+  background-color: #8E0014;
+  color:white;
+  padding: 2px;
+}
+.texto{
+  justify-content: space-around;
+}
+.contenedorTexto{
+  width: 45%;
+}
+.contenedorTexto p{
+  width: 100%;
+  align-content: center;
+  text-align: justify;
+}
