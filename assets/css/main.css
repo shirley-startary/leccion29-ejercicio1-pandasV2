@@ -40,7 +40,12 @@ a{
   color: white;
 }
 a:hover{
-
+  background-color: white;
+  padding: 10px;
+  border-radius: 80%;
+  color: #330007;
+  font-style: italic;
+  font-weight: bold;
 }
 .fotosBiclas{
   /*position: relative;*/
